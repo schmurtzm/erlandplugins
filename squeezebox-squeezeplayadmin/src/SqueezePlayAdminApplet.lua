@@ -148,6 +148,27 @@ function appletsCommand(self,params)
 	return result
 end
 
+
+
+
+function Enable_LineInCommand(self,params)
+	local LineInAppletInstance = appletManager:getAppletInstance("LineIn")
+	LineInAppletInstance:activateLineIn(true)
+	log:debug("Line-In activated.")
+	return value
+end
+
+
+function Disable_LineInCommand(self,params)
+	local LineInAppletInstance = appletManager:getAppletInstance("LineIn")
+	LineInAppletInstance:activateLineIn(false)
+	log:debug("Line-In disabled.")
+	return value
+end
+
+
+
+
 function hasAppletCommand(self,params)
 	local applet = params.applet
 	local installed = appletManager:hasApplet(applet)

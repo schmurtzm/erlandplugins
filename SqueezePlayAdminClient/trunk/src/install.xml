@@ -10,7 +10,7 @@
   <module>Plugins::SqueezePlayAdminClient::Plugin</module>
   <targetApplication>
     <id>SqueezeCenter</id>
-    <maxVersion>7+</maxVersion>
+    <maxVersion>8+</maxVersion>
     <minVersion>7.4.0</minVersion>
   </targetApplication>
   <type>2</type>
