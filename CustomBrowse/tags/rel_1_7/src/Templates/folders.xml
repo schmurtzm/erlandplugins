@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<custombrowse>
-	<template>
-		<name>Music folders</name>
-		<description>Menu that buts the standards Music Folders browse menu below the Custom Browse menu</description>
-		<parameter type="text" id="menuname" name="Menu name" value="Music Folders"/>
-	</template>
-</custombrowse>
-

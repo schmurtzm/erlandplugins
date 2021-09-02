@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<custombrowse>
-	<template>
-		<name>Genres by letter</name>
-		<description>Genres menu to browse genres, but it adds an extra level after you have selected the genre where you also have to select the first letter of the artist before you can browse artists for the selected letter</description>
-		<parameter type="text" id="menuname" name="Menu name" value="Genres by letter"/>
-	</template>
-</custombrowse>
-

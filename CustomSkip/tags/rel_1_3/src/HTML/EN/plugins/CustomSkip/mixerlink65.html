@@ -1,6 +1,0 @@
-<a href="[% webroot %]plugins/CustomSkip/customskip_mix.html?filtertype=[% item.filtertype %][% IF item.levelName == 'genre' and item.genre %]&amp;customskip_parameter_1=[% item.genre | uri %][% END %][% IF item.levelName == 'year' and item.yearid %]&amp;customskip_parameter_1=[% item.yearid | uri %][% END %][% IF item.levelName == 'artist' and item.artist %]&amp;customskip_parameter_1=[% item.artist | uri %][% END %][% IF item.levelName == 'contributor' and item.contributor %]&amp;customskip_parameter_1=[% item.contributor | uri %][% END %][% IF item.albumid %]&amp;customskip_parameter_1=[% item.albumid | uri %][% END %][% IF item.levelName == 'album' and item.album %]&amp;customskip_parameter_1=[% item.album | uri %][% END %][% IF (item.levelName == 'playlist' or item.levelName == 'playlisttrack' or item.levelName == 'track') and item.playlist %]&amp;customskip_parameter_1=[% item.playlist | uri %][% END %]&amp;player=[% playerURI %]" [% IF browserTarget %]target="[% browserTarget %]"[% END %]>
-[%- IF controlGraphics %]
-	<img src="[% webroot %]plugins/CustomSkip/html/images/mixbutton.gif" alt='[% "PLUGIN_CUSTOMSKIP" | string %]' title='[% "PLUGIN_CUSTOMSKIP" | string %]' onMouseOver="self.status='[% "PLUGIN_CUSTOMSKIP" | string %]';return true">
-[% ELSE %]
-	[% FILTER nbsp %][% "PLUGIN_CUSTOMSKIP" | string %][% END %]
-[% END -%]</a>

@@ -1,8 +1,0 @@
-[% tmpitem = undef %]
-[% IF mixeritems and !item.cbmixercontexttype%]
-        [%- tmpitem = item -%][%# store item object so we don't lose it for good %]
-        [%- item = mixeritems -%]
-[% END %]
-[% WRAPPER cmdlink cmdimage='browsebyselected.gif' cmdtitle='PLUGIN_CUSTOMBROWSE_CONTEXTMIXER' %]href="[% webroot %]plugins/CustomBrowse/custombrowse_contextlist.html?[% IF item.noitems %]noitems=1&amp;[% END %]contexttype=[% item.cbmixercontexttype %]&amp;contextid=[% item.cbmixercontextid %]&amp;contextname=[% item.cbmixercontextname |uri |uri%]&amp;player=[% playerURI %]" [% IF browserTarget %]target="[% browserTarget %]"[% END %][% END %]
-[%- IF tmpitem; item = tmpitem; END -%]
-

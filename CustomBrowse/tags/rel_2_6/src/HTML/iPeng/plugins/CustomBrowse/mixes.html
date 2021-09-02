@@ -1,8 +1,0 @@
-[% FOREACH mix = item.mixes %]
-	[% IF mix.url %]
-		<a class="tapblock" href="[% webroot %][% mix.url %]&player=[% player | uri %][% mix.urlcontext %]">[% mix.name %]</a>
-	[% ELSE %]
-		<a class="tapblock" href="[% webroot %]plugins/CustomBrowse/custombrowse_executemix[% IF pluginCustomBrowseContextMixUrl %]context[% END %].html?player=[% player | uri %][% pluginCustomBrowseItemUrl %]&mix=[% mix.id %]">[% mix.name %]</a>
-	[% END %]
-[% END %]
-

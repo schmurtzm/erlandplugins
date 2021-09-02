@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<custombrowse>
-	<template>
-		<id>folders.xml</id>
-		<parameter type="text" id="menuname"><value>Music Folders</value></parameter>
-		<parameter type="text" id="includedclients"></parameter>
-		<parameter type="text" id="excludedclients"></parameter>
-	</template>
-</custombrowse>

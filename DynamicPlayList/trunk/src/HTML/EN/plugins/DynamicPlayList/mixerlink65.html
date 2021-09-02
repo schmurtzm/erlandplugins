@@ -1,8 +1,0 @@
-[% tmpitem = undef %]
-[% IF mixeritems and !item.dplmixercontexttype %]
-        [%- tmpitem = item -%][%# store item object so we don't lose it for good %]
-        [%- item = mixeritems -%]
-[% END %]
-[% WRAPPER cmdlink cmdimage='dynamicplaylist_mixbutton.gif' cmdtitle='PLUGIN_DYNAMICPLAYLIST' %]href="[% webroot %]plugins/DynamicPlayList/dynamicplaylist_list.html?[% IF item.noitems %]noitems=1&amp;[% END %]playlisttype=[% item.dplmixercontexttype %]&amp;flatlist=1&amp;dynamicplaylist_parameter_1=[% item.dplmixercontextid %]&amp;player=[% playerURI %]" [% IF browserTarget %]target="[% browserTarget %]"[% END %][% END %]
-[%- IF tmpitem; item = tmpitem; END -%]
-

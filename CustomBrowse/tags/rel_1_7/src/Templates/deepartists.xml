@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<custombrowse>
-	<template>
-		<name>Artists by letter</name>
-		<description>Menu that browses artists but it has an extra level where you have to select the first letter of the artist before you can browse artists for the selected letter</description>
-		<parameter type="text" id="menuname" name="Menu name" value="Artists by letter"/>
-	</template>
-</custombrowse>
-

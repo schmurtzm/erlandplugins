@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<databasequery>
-	<template>
-		<id>trackstat_statistics</id>
-		<parameter type="text" id="queryname"><value>TrackStat Statistics</value></parameter>
-	</template>
-</databasequery>

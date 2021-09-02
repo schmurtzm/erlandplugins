@@ -1,7 +1,0 @@
-[% IF mixeritems %]
-        [%- tmpitem = item -%][%# store item object so we don't lose it for good %]
-        [%- item = mixeritems -%]
-[% END %]
-[% WRAPPER cmdlink cmdimage='trackstat_mixbutton.gif' cmdtitle='PLUGIN_TRACKSTAT' %]href="[% webroot %]plugins/TrackStat/all[% IF (item.levelName == 'artist' and item.artist) or (item.levelName == 'contributor' and item.contributor) or (item.levelName == 'genre' and item.genre) or (item.levelName == 'year' and item.yearid) %]albums[% END %].html?[% IF item.levelName == 'genre' and item.genre %]&amp;genre=[% item.genre | uri %][% END %][% IF item.levelName == 'year' and item.yearid %]&amp;year=[% item.yearid | uri %][% END %][% IF item.levelName == 'artist' and item.artist %]&amp;artist=[% item.artist | uri %][% END %][% IF item.levelName == 'contributor' and item.contributor %]&amp;artist=[% item.contributor | uri %][% END %][% IF item.albumid %]&amp;album=[% item.albumid | uri %][% END %][% IF item.levelName == 'album' and item.album %]&amp;album=[% item.album | uri %][% END %][% IF (item.levelName == 'playlist' or item.levelName == 'playlisttrack' or item.levelName == 'track') and item.playlist %]&amp;playlist=[% item.playlist | uri %][% END %][% IF item.currenttrackstatitem %]&amp;currenttrackstatitem=[% item.currenttrackstatitem | uri %][% END %]&amp;player=[% playerURI %]&amp;flatlist=1" [% IF browserTarget %]target="[% browserTarget %]"[% END %][% END %]
-[%- IF tmpitem; item = tmpitem; END -%]
-

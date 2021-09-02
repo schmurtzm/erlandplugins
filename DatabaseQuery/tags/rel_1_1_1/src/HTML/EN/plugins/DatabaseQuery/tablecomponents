@@ -1,3 +1,0 @@
-[% BLOCK DatabaseQueryRow %]
-<tr class="[% odd ? "odd" : "even" %]">[% content %]</tr>
-[%- END %]

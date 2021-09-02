@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<databasequery>
-	<template>
-		<id>customscan_problems</id>
-		<parameter type="text" id="queryname"><value>Custom Scan Inconsistency/Problems</value></parameter>
-	</template>
-</databasequery>

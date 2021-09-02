@@ -1,8 +1,0 @@
-[% tmpitem = undef %]
-[% IF mixeritems and !item.trackstatstatisticstype %]
-        [%- tmpitem = item -%][%# store item object so we don't lose it for good %]
-        [%- item = mixeritems -%]
-[% END %]
-[% WRAPPER cmdlink cmdimage='trackstat_mixbutton.gif' cmdtitle='PLUGIN_TRACKSTAT' %]href="[% webroot %]plugins/TrackStat/[% item.trackstatstatisticstype %].html?[% item.trackstatattributename %]=[% item.trackstatattributevalue %][% IF item.currenttrackstatitem %]&amp;currenttrackstatitem=[% item.currenttrackstatitem | uri %][% END %]&amp;player=[% playerURI %]&amp;flatlist=1" [% IF browserTarget %]target="[% browserTarget %]"[% END %][% END %]
-[%- IF tmpitem; item = tmpitem; END -%]
-

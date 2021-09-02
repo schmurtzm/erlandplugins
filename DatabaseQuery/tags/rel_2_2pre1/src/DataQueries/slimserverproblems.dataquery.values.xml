@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<databasequery>
-	<template>
-		<id>slimserverproblems.xml</id>
-		<parameter type="text" id="queryname"><value>Squeezebox Server Inconsistency/Problems</value></parameter>
-	</template>
-</databasequery>

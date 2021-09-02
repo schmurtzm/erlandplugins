@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<databasequery>
-	<template>
-		<id>customscan_statistics</id>
-		<parameter type="text" id="queryname"><value>Custom Scan Statistics</value></parameter>
-	</template>
-</databasequery>

@@ -1,6 +1,0 @@
-<a href="[% webroot %]plugins/CustomBrowse/custombrowse_contextlist.html?[% IF item.noitems %]noitems=1&amp;[% END %]contexttype=[% item.mixercontexttype %]&amp;contextid=[% item.mixercontextid %]&amp;contextname=[% item.mixercontextname %]&amp;player=[% playerURI %]" [% IF browserTarget %]target="[% browserTarget %]"[% END %]>
-[%- IF controlGraphics %]
-	<img src="[% webroot %]plugins/CustomBrowse/html/images/browsebutton.gif" alt='[% "PLUGIN_CUSTOMBROWSE_CONTEXTMIXER" | string %]' title='[% "PLUGIN_CUSTOMBROWSE_CONTEXTMIXER" | string %]' onMouseOver="self.status='[% "PLUGIN_CUSTOMBROWSE_CONTEXTMIXER" | string %]';return true">
-[% ELSE %]
-	[% FILTER nbsp %][% "PLUGIN_CUSTOMBROWSE_CONTEXTMIXER" | string %][% END %]
-[% END -%]</a>

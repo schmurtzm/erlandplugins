@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<custombrowse>
-	<template>
-		<name>Compilations</name>
-		<description>Compilations menu that only shows compilation albums</description>
-		<parameter type="text" id="menuname" name="Menu name" value="Compilations"/>
-	</template>
-</custombrowse>
-

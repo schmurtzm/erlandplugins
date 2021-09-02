@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<databasequery>
-	<template>
-		<id>sqlquery.xml</id>
-		<parameter type="text" id="queryname"><value>Free form query</value></parameter>
-		<parameter type="text" id="querydescription">This query list all albums by default, but you can change it to any SQL by using the Edit link</parameter>
-		<parameter type="text" id="querysql"><value>select * from albums</value></parameter>
-	</template>
-</databasequery>

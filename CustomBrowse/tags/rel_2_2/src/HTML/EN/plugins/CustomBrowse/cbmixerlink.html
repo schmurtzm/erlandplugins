@@ -1,7 +1,0 @@
-[% BLOCK custombrowse_mixerlink %]
-	[% IF mix.url %]
-		<a href="[% webroot %][% mix.url %]&player=[% player | uri %][% mix.urlcontext %]"><img src="[% webroot %][% IF mix.image %][% mix.image %][% ELSE %]html/images/custombrowse_mix.gif[% END %]" alt='[% mix.name %]' title='[% mix.name %]' onMouseOver="self.status='[% mix.name %]';return true"></a>
-	[% ELSE %]
-		<a href="[% mixurl %]?player=[% player | uri %]&[% item.url %]&mix=[% mix.id %][% IF start %]&start=[% start %][% END %]"><img src="[% webroot %][% IF mix.image %][% mix.image %][% ELSE %]html/images/custombrowse_mix.gif[% END %]" alt='[% mix.name %]' title='[% mix.name %]' onMouseOver="self.status='[% mix.name %]';return true"></a>
-	[% END %]
-[% END %]
