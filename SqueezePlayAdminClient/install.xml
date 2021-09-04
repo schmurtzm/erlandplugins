@@ -1,11 +1,11 @@
 <?xml version='1.0' standalone='yes'?>
 <extension>
   <name>PLUGIN_SQUEEZEPLAYADMIN</name>
-  <creator>Erland Isaksson</creator>
+  <creator>Erland Isaksson , Schmurtz</creator>
   <defaultState>enabled</defaultState>
   <description>SETUP_PLUGIN_SQUEEZEPLAYADMIN_GROUP_DESC</description>
   <email>erland@isaksson.info</email>
-  <homepageURL>http://wiki.erland.isaksson.info</homepageURL>
+  <homepageURL>http://downloads.isaksson.info/download/do/viewapplication?name=slimserver-squeezeplayadmin</homepageURL>
   <id>B1D9130D-C93A-49EA-A35E-4A4DE575ADE0</id>
   <module>Plugins::SqueezePlayAdminClient::Plugin</module>
   <targetApplication>

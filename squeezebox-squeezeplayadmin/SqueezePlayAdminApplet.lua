@@ -151,20 +151,27 @@ end
 
 
 
-function Enable_LineInCommand(self,params)
+function Enable_LineInCommand(self)
 	local LineInAppletInstance = appletManager:getAppletInstance("LineIn")
 	LineInAppletInstance:activateLineIn(true)
-	log:debug("Line-In activated.")
+	log:info("Line-In activated.")
+	local value = {
+		value = " - Line In activated"
+	}
 	return value
 end
 
 
-function Disable_LineInCommand(self,params)
+function Disable_LineInCommand(self)
 	local LineInAppletInstance = appletManager:getAppletInstance("LineIn")
 	LineInAppletInstance:activateLineIn(false)
-	log:debug("Line-In disabled.")
+	log:info("Line-In disabled.")
+	local value = {
+		value = " - Line In disabled"
+	}
 	return value
 end
+
 
 
 

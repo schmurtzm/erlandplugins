@@ -11,7 +11,7 @@
                         <creator>Erland Isaksson, Schmurtz</creator>
                         <email>erland@isaksson.info</email>
                         <url>https://github.com/schmurtzm/erlandplugins/blob/master/_Packages/SqueezePlayAdmin-0.1.39.zip</url>
-                        <sha>732ba30d622568083c5b159c3d03851ece61ce08</sha>
+                        <sha>xxxxxxxxx</sha>
                         <link>https://forums.slimdevices.com/showthread.php?77494-Announce-Applet-Plugin-for-remote-administration-of-SqueezePlay</link>
                 </applet>
 				
@@ -24,7 +24,7 @@
                         <creator>Erland Isaksson, Schmurtz</creator>
                         <email>erland@isaksson.info</email>
                         <url>https://github.com/schmurtzm/erlandplugins/blob/master/_Packages/SqueezePlayAdminClient-0.1.3018.zip</url>
-                        <sha>0be7e5b0b49233ff3546a683a2c5aeae19624a19</sha>
+                        <sha>YYYYYYYYY</sha>
                         <link>https://forums.slimdevices.com/showthread.php?77494-Announce-Applet-Plugin-for-remote-administration-of-SqueezePlay</link>
                 </plugin>
 	</plugins>

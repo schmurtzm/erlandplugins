@@ -114,7 +114,9 @@ sub handleWebList {
 
 	if((!defined($server) || $server eq "") && scalar(@serverList)>0) {
 		if(!defined($params->{'pluginSqueezePlayAdminWarning'})) {
-			$server = @serverList->[0]->{'id'}
+			# Not working on LMS 8.2  : "Can't use an array as a reference"
+			# so quick and dirty comment
+			#$server = $serverList->[0]->{'id'}
 		}
 	}
 	$params->{'pluginSqueezePlayAdminServers'} = \@serverList;
