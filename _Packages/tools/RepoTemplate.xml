@@ -14,8 +14,8 @@
                         <sha>xxxxxxxxx</sha>
                         <link>https://forums.slimdevices.com/showthread.php?77494-Announce-Applet-Plugin-for-remote-administration-of-SqueezePlay</link>
                 </applet>
-				
-
+	</applets>
+	<plugins>
                 <plugin name="SqueezePlayAdminClient" version="0.1.3018" minTarget="7.4.0" maxTarget="*">
                         <title lang="EN">SqueezePlay Admin Client + Line-In control *Beta*</title>
                         <desc lang="EN">*** BETA VERSION ***. Makes it possible to remotely access files and preferences on a Touch, Radio or Controller. The SqueezePlay Admin applet has to be installed on the device you like to browse/view files and preferences on. (Controller, Radio, Touch).Line-In can be activated remotely.</desc>
