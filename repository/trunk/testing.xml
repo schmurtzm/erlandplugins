@@ -10,8 +10,8 @@
                         <desc lang="EN">*** THIS IS A BETA VERSION ***. Make it possible to remotely access preferences and files on a Radio, Touch or Controller + allow to activate Line-in remotely</desc>
                         <creator>Erland Isaksson, Schmurtz</creator>
                         <email>erland@isaksson.info</email>
-                        <url>https://github.com/schmurtzm/erlandplugins/blob/master/_Packages/SqueezePlayAdmin-0.1.39.zip</url>
-                        <sha>732ba30d622568083c5b159c3d03851ece61ce08</sha>
+                        <url>https://github.com/schmurtzm/erlandplugins/raw/master/_Packages/SqueezePlayAdmin-0.1.39.zip</url>
+                        <sha>aa94472ad37840f0796fcf1fdf9b63981b469bf9</sha>
                         <link>https://forums.slimdevices.com/showthread.php?77494-Announce-Applet-Plugin-for-remote-administration-of-SqueezePlay</link>
                 </applet>
 				
@@ -23,8 +23,8 @@
                         </changes>
                         <creator>Erland Isaksson, Schmurtz</creator>
                         <email>erland@isaksson.info</email>
-                        <url>https://github.com/schmurtzm/erlandplugins/blob/master/_Packages/SqueezePlayAdminClient-0.1.3018.zip</url>
-                        <sha>0be7e5b0b49233ff3546a683a2c5aeae19624a19</sha>
+                        <url>https://github.com/schmurtzm/erlandplugins/raw/master/_Packages/SqueezePlayAdminClient-0.1.3018.zip</url>
+                        <sha>e7882be7044c1f2a2f9d01af6d3d60fc8309c273</sha>
                         <link>https://forums.slimdevices.com/showthread.php?77494-Announce-Applet-Plugin-for-remote-administration-of-SqueezePlay</link>
                 </plugin>
 	</plugins>
