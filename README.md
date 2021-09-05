@@ -13,13 +13,13 @@ https://raw.githubusercontent.com/schmurtzm/erlandplugins/master/repository/trun
 
 Then activate the plugin "SqueezePlay Admin Client + Line-In control *Beta*"
 
-On Squeezebox Boom :
+On Squeezebox Radio :
 --------------------
 Settings -> Advanced -> Applet Installer -> unselect "Recommanded Applets Only" and then install "SqueezePlay Admin + Line-In control *Beta*"
 
 ### How to use :
 
-Then You can switch to line in with CLI with these commands (00:xx:xx:xx:xx:xx is the mac address of the Squeezebox Boom) :
+Then You can switch to line in with CLI with these commands (00:xx:xx:xx:xx:xx is the mac address of the Squeezebox Radio) :
 
 Reminder for the CLI : telnet IP_LMS_Server 9090
 ```bash
@@ -36,7 +36,7 @@ For Home Assistant :
 
 ```yaml
 alias: Spotify_GoogleHome_To_Squeezebox_Automation
-description: Enable Squeezebox Boom input when Google Home Mini is playing Spotify
+description: Enable Squeezebox Radio input when Google Home Mini is playing Spotify
 trigger:
   - platform: state
     entity_id: media_player.MyGoogleHome
