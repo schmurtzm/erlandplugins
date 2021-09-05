@@ -49,7 +49,7 @@ function configureApplet(self)
 	appletManager:callService("squeezePlayAdminDispatch","hasapplet","SqueezePlayAdmin","hasAppletCommand")
 	appletManager:callService("squeezePlayAdminDispatch","applets","SqueezePlayAdmin","appletsCommand")
 	appletManager:callService("squeezePlayAdminDispatch","enable_linein","SqueezePlayAdmin","Enable_LineInCommand")
-	appletManager:callService("squeezePlayAdminDispatch","disable_lineIn","SqueezePlayAdmin","Disable_LineInCommand")
+	appletManager:callService("squeezePlayAdminDispatch","disable_linein","SqueezePlayAdmin","Disable_LineInCommand")
 end
 
 function defaultSettings(self)

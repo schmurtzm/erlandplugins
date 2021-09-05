@@ -3,6 +3,23 @@
 This is a modified version of SqueezePlayAdmin plugin from Erland to control Line-in on Squeezebox Radio remotely.
 	(and may be others like Squeezebox Boom but not tested)
 
+
+### How to install :
+On LMS server :
+add this plugin repository :
+https://raw.githubusercontent.com/schmurtzm/erlandplugins/master/repository/trunk/testing.xml
+Then activate the plugin "SqueezePlay Admin Client + Line-In control *Beta*"
+
+On Squeezebox Boom :
+Settings -> Advanced -> Applet Installer -> unselect "Recommanded Applets Only" and then install "SqueezePlay Admin + Line-In control *Beta*"
+
+
+Then You can switch to line in with CLI with these commands (00:xx:xx:xx:xx:xx is the mac address of the Squeezebox Boom) :
+squeezeplayadmin enable_linein 00:xx:xx:xx:xx:xx
+squeezeplayadmin disable_linein 00:xx:xx:xx:xx:xx
+
+
+
 ### Information about SqueezePlayAdmin plugin :
 
 > official topic : 

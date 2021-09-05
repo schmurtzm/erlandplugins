@@ -11,7 +11,7 @@
                         <creator>Erland Isaksson, Schmurtz</creator>
                         <email>erland@isaksson.info</email>
                         <url>http://alecsis.free.fr/softwares/squeezebox/SqueezePlayAdmin-0.1.39.zip</url>
-                        <sha>25924a4c12e0ce55e7c3fdda609f328a0635bb72</sha>
+                        <sha>751b423ad926908c248ae87f1c6088687783c0f0</sha>
                         <link>https://forums.slimdevices.com/showthread.php?77494-Announce-Applet-Plugin-for-remote-administration-of-SqueezePlay</link>
                 </applet>
 	</applets>
@@ -24,7 +24,7 @@
                         <creator>Erland Isaksson, Schmurtz</creator>
                         <email>erland@isaksson.info</email>
                         <url>http://github.com/schmurtzm/erlandplugins/raw/master/_Packages/SqueezePlayAdminClient-0.1.3018.zip</url>
-                        <sha>5f1521f4c84cb3447212d4ce49475f3711f99891</sha>
+                        <sha>f20364d890b7a34e30dbba518f7e7dd8ff9ecea9</sha>
                         <link>https://forums.slimdevices.com/showthread.php?77494-Announce-Applet-Plugin-for-remote-administration-of-SqueezePlay</link>
                 </plugin>
 	</plugins>
